@@ -1,0 +1,18 @@
+.inquiry-list .no-inquiries {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inquiry-list .no-inquiries .go-back {
+    justify-content: flex-start;
+}
+
+.inquiry-image {
+    width: 100%;
+}
+
+.inquiry-image img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,162 @@
+.contact-box .blue-separator {
+	margin: auto;
+	height: 200px;
+}
+
+.con-intro-container {
+	line-height: 1.1em;
+	height: 100%;
+}
+
+.con-intro-container .image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.con-intro-container h4 {
+	color: var(--azuloscuro);
+}
+
+.con-intro-container p {
+	margin-bottom: auto;
+}
+
+.gray-bg {
+	background-color: var(--gris);
+}
+
+.black-bg h4 {
+	color: #fff;
+}
+
+.black-bg .extrabox-content {
+	color: var(--plata);
+}
+
+.blue-bg {
+	background-color: var(--azuloscuro);
+}
+
+.blue-bg h3 {
+	color: #fff;
+}
+
+.contact-blurb {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.contact-blurb svg {
+	width: auto;
+	height: 60px;
+	color: var(--primerazul);
+	fill: var(--primerazul);
+	margin-bottom: 30px;
+}
+
+.contact-blurb h5 {
+	color: #fff;
+}
+
+.white-bg {
+	background-color: #fff;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.white-bg .image-container img {
+	max-width: 200px;
+}
+
+.white-bg .con-intro-container {
+	white-space: pre-wrap;
+}
+
+.white-bg .con-intro-container a {
+	color: #fff;
+	background-color: var(--primerazul);
+	border: 2px solid var(--primerazul);
+	font-family: var(--fontuno);
+	font-weight: 500;
+	text-transform: uppercase;
+	height: 100%;
+	padding: 10px 30px;
+	margin-top: 20px;
+	display: inline-flex;
+	transition: all 0.7s ease;
+}
+
+.white-bg .con-intro-container a:hover {
+	color: var(--oscuro);
+	background-color: #fff;
+	box-shadow: 0 0 25px rgb(0 0 0 / 70%);
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	transition: all 0.3s ease;
+}
+
+.contact-cars .extrabox-content {
+	white-space: normal;
+}
+
+.contact-cars .extrabox-content a {
+	color: var(--primerazul);
+	padding: 0;
+	border: none;
+	text-transform: none;
+	display: flex;
+	margin-top: 0;
+	background-color: transparent;
+}
+
+.contact-cars .extrabox-content a:hover {
+	color: var(--naranja);
+	padding: 0;
+	border: none;
+	text-transform: none;
+	display: flex;
+	margin-top: 0;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.contact-cars .bodytext {
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 959px) {
+	.white-bg .blue-separator {
+		transform: none;
+	}
+}
+
+@media screen and (max-width: 899px) {
+	.white-bg .blue-separator {
+		margin: auto;
+		height: 10px;
+		width: 200px;
+	}
+
+	.white-bg {
+		text-align: center;
+	}
+
+	.cu-one {
+		order: 3;
+	}
+	.cu-two {
+		order: 2;
+	}
+	.cu-three {
+		order: 1;
+	}
+
+	.contact-cars .extrabox-content a {
+		text-align: center;
+		display: block;
+	}
+}

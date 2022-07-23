@@ -1,0 +1,181 @@
+/* ===================================
+    1. Paralax Styling
+====================================== */
+.about-top {
+    position: relative;
+    height: 100%;
+}
+
+.about-top section {
+    z-index: 2;
+    position: relative;
+}
+
+.about-top ul li {
+    margin-bottom: 20px;
+}
+
+.img-bg-container {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#half-one-about {
+    position: absolute;
+    right: 475px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+#half-two-about {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+@media only screen and (max-width: 959px) {
+    .about-top {
+        min-height: 500px;
+    }
+
+    #half-one {
+        right: 340px;
+        width: 300px;
+        height: auto;
+    }
+
+    #half-two {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-top {
+        min-height: 440px;
+    }
+
+    #half-one {
+        right: 290px;
+        width: 250px;
+        top: 60%;
+        height: auto;
+    }
+
+    #half-two {
+        width: 250px;
+        top: 0%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-top {
+        min-height: 400px;
+    }
+
+    #half-one {
+        right: 250px;
+        width: 210px;
+        top: 40%;
+        height: auto;
+    }
+
+    #half-two {
+        width: 210px;
+        top: -5%;
+        height: auto;
+    }
+}
+
+/* ===================================
+    2. Blurbs
+====================================== */
+.icon-blurbs h6 {
+    color: #fff;
+}
+
+.icon-blurbs svg {
+    color: var(--primerazul);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* ===================================
+    3. Corporate Philosophy
+====================================== */
+.corporate-philo-block {
+    background-color: var(--plata);
+}
+
+.nl-intro-container h3 {
+    color: #fff;
+    position: relative;
+}
+
+.nl-intro-container h3::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--segundoazul);
+    left: -30px;
+    width: 7px;
+    height: 100%;
+}
+
+.nl-intro-container h5 {
+    color: var(--grisoscuro);
+}
+
+.nl-intro-container p {
+    color: var(--oscuro);
+    line-height: 1.1em;
+}
+
+.corporate-philo-block .blue-separator {
+    display: flex;
+    width: 10px;
+    margin: 0 auto;
+    height: 100% !important;
+}
+
+.corporate-philo-block ul {
+    color: var(--grisoscuro);
+}
+
+.corporate-philo-block ul li {
+    margin-bottom: 20px;
+}
+
+.corporate-philo-block ul li b {
+    color: var(--segundoazul);
+}
+
+@media screen and (max-width: 959px) {
+    .corporate-philo-block .blue-separator {
+        width: 50%;
+        min-height: 10px;
+        margin: 0;
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blue-separator {
+        transform: rotate(90deg);
+    }
+    .corporate-philo-block .blue-separator {
+        transform: none;
+    }
+}
+
+.green-company h3 {
+    color: #fff;
+}

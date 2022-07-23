@@ -1,0 +1,33 @@
+.serie-page-series .cta-main-boxes {
+    height: 300px;
+}
+
+.serie-page-series .cta-main-boxes .cta-box-title {
+    font-size: initial;
+    margin-bottom: 0px;
+}
+
+.serie-page-series .cta-main-boxes .cta-box-title h4 {
+    font-size: 32px;
+}
+
+.serie-page-series .cta-main-boxes .cta-box-body {
+    font-size: 14px;
+}
+
+.serie-page-series .cta-main-boxes .cta-box-body p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.serie-page-series .cta-main-boxes .cta-box-body a {
+    margin-top: 0px !important;
+}
+
+.extrabox-content {
+    color: var(--grisoscuro);
+    line-height: 1.4em;
+}

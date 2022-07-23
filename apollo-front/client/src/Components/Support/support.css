@@ -1,0 +1,146 @@
+.support-box .blue-separator {
+	margin: auto;
+	height: 200px;
+}
+
+.seb-intro-container {
+	line-height: 1.1em;
+	height: 100%;
+}
+
+.seb-intro-container .image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	max-height: 700px;
+}
+
+.seb-intro-container h4 {
+	color: var(--azuloscuro);
+}
+
+.seb-intro-container p {
+	margin-bottom: auto;
+}
+
+.gray-bg {
+	background-color: var(--gris);
+}
+
+.black-bg h4 {
+	color: #fff;
+}
+
+.black-bg .extrabox-content {
+	color: var(--plata);
+}
+
+.blue-bg {
+	background-color: var(--azuloscuro);
+}
+
+.blue-bg h3 {
+	color: #fff;
+}
+
+.support-blurb {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+.support-blurb img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.support-blurb svg {
+	width: auto;
+	height: 60px;
+	color: var(--primerazul);
+	fill: var(--primerazul);
+	margin-bottom: 30px;
+}
+
+.support-blurb h5 {
+	color: #fff;
+}
+
+.table-container {
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.table-container table {
+	min-width: 1024px;
+	border: none;
+	background-color: var(--oscuro);
+}
+
+.table-container thead {
+	background-color: var(--segundoazul);
+	width: 100%;
+}
+
+.table-container thead tr {
+	width: 100%;
+}
+
+.table-container tr th {
+	text-align: center !important;
+}
+
+.table-container tbody tr {
+	text-align: center;
+}
+
+.table-container tbody tr:nth-child(even) {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table-container table td,
+.table-container table th {
+	padding: 20px 0;
+	font-size: 15px;
+}
+
+.table-container thead tr th:nth-child(5),
+.table-container thead tr th:nth-child(6) {
+	min-width: 170px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.table-container table td,
+	.table-container table th {
+		padding: 15px 0;
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.table-container table td,
+	.table-container table th {
+		padding: 10px 0;
+		font-size: 12px;
+	}
+
+	.content-boxed {
+		padding: 20px 40px 0;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.table-container table td,
+	.table-container table th {
+		font-size: 10px;
+	}
+
+	.content-boxed {
+		padding: 20px 20px 0 35px;
+	}
+}
